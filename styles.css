@@ -1,0 +1,108 @@
+.navbar {
+    background-color: #ff0000;
+  }
+  
+  .navbar a {
+    color: #fff;
+  }
+  
+  .navbar a {
+    font-size: 16px;
+  }
+  
+  .navbar a {
+    font-family: "Helvetica Neue", sans-serif;
+  }
+  
+  .navbar {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .navbar a {
+    margin-right: 10px;
+  }
+
+  body {
+  
+ 
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    h
+    h2 {
+      text-align: center;
+      color: red;
+    }
+      
+     h2.About, h2.CV, h2.Contact, h2.TRAVAIL {
+        color: red;
+        
+       
+      border: 1px solid black;
+        border-radius: 5px;
+      }
+      footer {
+        background-color: red;
+        width: 100%;
+        text-align: center;
+        color: white;
+      }
+      video {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+      }
+    
+input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+ 
+  input, textarea {
+    color: #333;
+  }
+ 
+  input, textarea {
+    border: 1px solid #ccc;
+  }
+
+  input, textarea {
+    border-radius: 4px;
+  }
+ 
+  input, textarea {
+    padding: 10px;
+  }
+  
+  input, textarea {
+    margin-bottom: 10px;
+  }
+ 
+  input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ 
+  input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  input[type="submit"]:active {
+    background-color: #005cbf;
+  }
+  h2 {
+    text-align: center;
+  }
