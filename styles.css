@@ -1,108 +1,334 @@
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:wght@100;300;400;500;600;700;800;900 & display=swap');
+
+
+
 .navbar {
-    background-color: #ff0000;
-  }
-  
-  .navbar a {
-    color: #fff;
-  }
-  
-  .navbar a {
-    font-size: 16px;
-  }
-  
-  .navbar a {
-    font-family: "Helvetica Neue", sans-serif;
-  }
-  
-  .navbar {
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0;
+    background-color: white;
+    padding: 20px; 
     width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+    height: 95px;
+}
+
+.logo_title,
+.navbar ul li a {
+    color: rgb(155, 157, 157);
+}
+
+.navbar img {
+    width: 20%;
+    margin: 50px;
+}
+
+#apropos {
+    color: rgb(7, 167, 114);
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 12px;
+    margin: 0 6px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(159, 157, 155);
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    color: rgb(55, 145, 145);
+    font-size: 27px;
+    font-family: monospace;
+}
+
+.image-logo {
+height: 70px;
+width: 70px;
+ }
+
+ #patient-container1{
+    background-color: rgb(45, 184, 172);
+    margin: 12px;
+ }
+ 
+ #choisissezPays {
+    color: white;
+    text-decoration: underline;
+}
+
+#patient-container1 {
+    border-radius: 10px; 
+}
+
+#patient-container2{
+    background-color: rgb(44, 64, 247);
+}
+
+#patient-container2 {
+    border-radius: 10px; 
+}
+
+#patient-container3{
+    background-color: rgb(51, 49, 49);
+}
+
+#patient-container3 {
+    border-radius: 10px; 
+}
+
+.section1{
+    font-family: Work Sans;
+}
+
+.text{
+    font-size: larger;
+    color: rgb(45, 184, 172);
+
+}
+
+.country-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scnd-text{
+    font-size: x-small;
+}
+
+.section-parent{
+    display: flex;
+}
+
+.image-section{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin: 0% 13% 9%;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+}
+
+.wrapper{
+    width: 309px;
+    height: 345px;
+    border-radius: 5px;
+    margin: 0 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper img{
+    width: 309px;
+    height: 278px;
+}
+
+.city-description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1,7;
+    margin: 5%;
+}
+
+.seemore-btn{
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 29%;
+    background: blue;
+    line-height: 1em;
+    color: blanchedalmond;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+}
+
+.image-section b {
+    text-decoration: none;
+    color: #747474;
+}
+.section-parent{
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+} 
+
+.part1{
+    width: 265px;
+    height: 390px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #00b39b;
+}
+
+.part2{
+    width: 265px;
+    height: 390px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #3d83df;
+}
+
+.part3{
+    width: 265px;
+    height: 390px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #747474;
+}
+
+#pays{
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0; 
+  background-color: white;
+  padding: 90px;
+  width: 100%; 
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .navbar li {
+    margin-right: 20px;
   }
   
   .navbar a {
-    margin-right: 10px;
-  }
-
-  body {
-  
- 
-    font-family: 'Roboto', sans-serif;
-    }
-    
-    h
-    h2 {
-      text-align: center;
-      color: red;
-    }
-      
-     h2.About, h2.CV, h2.Contact, h2.TRAVAIL {
-        color: red;
-        
-       
-      border: 1px solid black;
-        border-radius: 5px;
-      }
-      footer {
-        background-color: red;
-        width: 100%;
-        text-align: center;
-        color: white;
-      }
-      video {
-        width: 50%;
-        height: auto;
-        border-radius: 10px;
-      }
-    
-input, textarea {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-  }
- 
-  input, textarea {
+    text-decoration: none;
     color: #333;
+    font-weight: bold;
+  }   
+  
+  .navbar-logo {
+    margin-right: 20px;
   }
- 
-  input, textarea {
-    border: 1px solid #ccc;
-  }
+  
+.bamba2{
+    color: aliceblue;
+}
 
-  input, textarea {
+.bamba1{
+    color: aliceblue;
+}
+
+h2.bamba3,
+h4.bamba3{
+    color: aliceblue;
+    font-family: 'Work Sans'; 
+    margin: 9px;
+}
+
+h2.bamba1,
+h4.bamba1{
+    color: aliceblue;
+    font-family: 'Work Sans'; 
+    margin: 9px;
+}
+
+h2.bamba2,
+h4.bamba2{
+    color: aliceblue;
+    font-family: 'Work Sans'; 
+    margin: 9px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+}
+
+.center-image img {
+    display: block;
+    margin: 0 auto;
+}
+
+.city-name {
+    color: gray; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+h3 {
+    text-align: center; 
+}
+
+.seemore-btn2 {
+    border: 0;
     border-radius: 4px;
-  }
- 
-  input, textarea {
-    padding: 10px;
-  }
-  
-  input, textarea {
-    margin-bottom: 10px;
-  }
- 
-  input[type="submit"] {
-    background-color: #000000;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
- 
-  input[type="submit"]:hover {
-    background-color: #0069d9;
-  }
-  
-  input[type="submit"]:active {
-    background-color: #005cbf;
-  }
-  h2 {
+    padding: 10px 10px;
+    margin: 0 auto; 
+    background: blue;
+    line-height: 1em;
+    color: blanchedalmond;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
     text-align: center;
-  }
+    display: block; 
+    width: fit-content; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-top {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-text {
+    color: #333;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+}
